@@ -3,9 +3,9 @@ package handler
 import (
 	"sync"
 
-	"zebrax.id/product/dmaa/services/user/client"
-	"zebrax.id/product/dmaa/services/user/repository"
-	"zebrax.id/product/dmaa/services/user/usecase"
+	"github.com/fajarsep12zx/go-micro-starter/services/user/client"
+	"github.com/fajarsep12zx/go-micro-starter/services/user/repository"
+	"github.com/fajarsep12zx/go-micro-starter/services/user/usecase"
 )
 
 var uc *usecase.UseCase

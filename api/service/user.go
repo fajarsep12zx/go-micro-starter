@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph/model"
-	coreclient "zebrax.id/product/dmaa/core/client"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph/model"
+	coreclient "github.com/fajarsep12zx/go-micro-starter/core/client"
+	servicemodel "github.com/fajarsep12zx/go-micro-starter/core/proto"
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
 )
 
 // DoLogout ...

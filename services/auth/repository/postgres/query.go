@@ -1,7 +1,7 @@
 package postgres
 
 import (
-	"zebrax.id/product/dmaa/core/connection"
+	"github.com/fajarsep12zx/go-micro-starter/core/connection"
 )
 
 // Repository ...

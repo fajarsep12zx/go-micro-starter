@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	core "zebrax.id/product/dmaa/core/proto"
+	core "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 type tokenClaimType int

@@ -6,8 +6,8 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph"
-	"zebrax.id/product/dmaa/api/graph/model"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph/model"
 )
 
 func (r *mutationResolver) User(ctx context.Context) (*model.AbstractModel, error) {

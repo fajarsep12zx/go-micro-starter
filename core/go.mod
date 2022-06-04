@@ -1,4 +1,4 @@
-module zebrax.id/product/dmaa/core
+module github.com/fajarsep12zx/go-micro-starter/core
 
 go 1.13
 

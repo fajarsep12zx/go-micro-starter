@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"zebrax.id/product/dmaa/api/service"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	"github.com/fajarsep12zx/go-micro-starter/api/service"
+	servicemodel "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 const (

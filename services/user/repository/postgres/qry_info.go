@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"zebrax.id/product/dmaa/core/connection"
-	"zebrax.id/product/dmaa/core/utils"
+	"github.com/fajarsep12zx/go-micro-starter/core/connection"
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
 )
 
 // Repository ...

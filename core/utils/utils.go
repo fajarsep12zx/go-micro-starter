@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
+	configFile "github.com/fajarsep12zx/go-micro-starter/core/config"
+	connection "github.com/fajarsep12zx/go-micro-starter/core/connection"
 	"github.com/jinzhu/copier"
 	"github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/util/log"
 	cache "github.com/patrickmn/go-cache"
-	configFile "zebrax.id/product/dmaa/core/config"
-	connection "zebrax.id/product/dmaa/core/connection"
 )
 
 const (

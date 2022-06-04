@@ -3,9 +3,9 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph/model"
-	"zebrax.id/product/dmaa/api/middleware"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph/model"
+	"github.com/fajarsep12zx/go-micro-starter/api/middleware"
+	servicemodel "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 // This file will not be regenerated automatically.

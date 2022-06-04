@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
+	common "github.com/fajarsep12zx/go-micro-starter/core/model"
 	"github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/util/log"
-	common "zebrax.id/product/dmaa/core/model"
 )
 
 type config struct {

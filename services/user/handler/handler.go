@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 
-	core "zebrax.id/product/dmaa/core/proto"
+	core "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 // Handler ...

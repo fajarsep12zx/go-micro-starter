@@ -6,8 +6,8 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/login"
-	"zebrax.id/product/dmaa/api/login/model"
+	"github.com/fajarsep12zx/go-micro-starter/api/login"
+	"github.com/fajarsep12zx/go-micro-starter/api/login/model"
 )
 
 func (r *mutationResolver) Login(ctx context.Context, userID string, password string, refreshToken string) (*model.LoginData, error) {

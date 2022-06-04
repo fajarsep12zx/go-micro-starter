@@ -3,8 +3,8 @@ package usecase
 import (
 	"strings"
 
-	core "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	core "github.com/fajarsep12zx/go-micro-starter/core/proto"
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
 )
 
 const (

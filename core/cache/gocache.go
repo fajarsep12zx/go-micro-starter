@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
 	gcache "github.com/patrickmn/go-cache"
-	"zebrax.id/product/dmaa/core/utils"
 )
 
 type goCache struct {

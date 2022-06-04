@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/99designs/gqlgen/handler"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph"
+	"github.com/fajarsep12zx/go-micro-starter/api/graph/resolver"
+	"github.com/fajarsep12zx/go-micro-starter/api/login"
+	loginresolver "github.com/fajarsep12zx/go-micro-starter/api/login/resolver"
+	"github.com/fajarsep12zx/go-micro-starter/api/middleware"
 	"github.com/go-chi/chi"
 	"github.com/gorilla/websocket"
 	"github.com/joho/godotenv"
-	"zebrax.id/product/dmaa/api/graph"
-	"zebrax.id/product/dmaa/api/graph/resolver"
-	"zebrax.id/product/dmaa/api/login"
-	loginresolver "zebrax.id/product/dmaa/api/login/resolver"
-	"zebrax.id/product/dmaa/api/middleware"
 )
 
 const defaultPort = "8080"

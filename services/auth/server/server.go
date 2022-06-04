@@ -4,11 +4,11 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/micro/go-micro/v2/util/log"
 
-	auth "zebrax.id/product/dmaa/core/proto"
-	health "zebrax.id/product/dmaa/core/proto/health"
-	"zebrax.id/product/dmaa/core/server"
-	"zebrax.id/product/dmaa/core/utils"
-	"zebrax.id/product/dmaa/services/auth/handler"
+	auth "github.com/fajarsep12zx/go-micro-starter/core/proto"
+	health "github.com/fajarsep12zx/go-micro-starter/core/proto/health"
+	"github.com/fajarsep12zx/go-micro-starter/core/server"
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
+	"github.com/fajarsep12zx/go-micro-starter/services/auth/handler"
 )
 
 func init() {

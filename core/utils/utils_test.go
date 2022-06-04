@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	core "github.com/fajarsep12zx/go-micro-starter/core/proto"
 	cache "github.com/patrickmn/go-cache"
-	core "zebrax.id/product/dmaa/core/proto"
 )
 
 func TestStringToInt(t *testing.T) {

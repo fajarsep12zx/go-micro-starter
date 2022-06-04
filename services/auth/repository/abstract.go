@@ -1,9 +1,9 @@
 package repository
 
 import (
+	"github.com/fajarsep12zx/go-micro-starter/core/utils"
+	"github.com/fajarsep12zx/go-micro-starter/services/auth/repository/postgres"
 	cache "github.com/patrickmn/go-cache"
-	"zebrax.id/product/dmaa/core/utils"
-	"zebrax.id/product/dmaa/services/auth/repository/postgres"
 )
 
 // Repository interface

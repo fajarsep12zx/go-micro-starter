@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"zebrax.id/product/dmaa/services/user/client"
-	"zebrax.id/product/dmaa/services/user/repository"
+	"github.com/fajarsep12zx/go-micro-starter/services/user/client"
+	"github.com/fajarsep12zx/go-micro-starter/services/user/repository"
 )
 
 // UseCase ...

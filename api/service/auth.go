@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	coreclient "zebrax.id/product/dmaa/core/client"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	coreclient "github.com/fajarsep12zx/go-micro-starter/core/client"
+	servicemodel "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 // GetValidateTokenSession ...

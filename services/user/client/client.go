@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	coreclient "zebrax.id/product/dmaa/core/client"
-	service "zebrax.id/product/dmaa/core/proto"
+	coreclient "github.com/fajarsep12zx/go-micro-starter/core/client"
+	service "github.com/fajarsep12zx/go-micro-starter/core/proto"
 )
 
 // Client as GRPC client for other service
