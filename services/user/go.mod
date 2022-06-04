@@ -3,11 +3,11 @@ module github.com/fajarsep12zx/go-micro-starter/services/user
 go 1.13
 
 require (
+	github.com/fajarsep12zx/go-micro-starter/core v0.0.0
 	github.com/joho/godotenv v1.3.0
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/micro/go-plugins/registry/kubernetes/v2 v2.9.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/fajarsep12zx/go-micro-starter/core v0.0.0
 )
 
 replace github.com/fajarsep12zx/go-micro-starter/core => ../../core
